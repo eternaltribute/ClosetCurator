@@ -43,25 +43,11 @@ closet = [
         "material": "denim"
     }
 
-        #TEMPLATE
-'''
-    {
-        "name": "",
-        "article": "",           # e.g., "top", "bottom", "outerwear", "shoes"
-        "pattern": "",           # e.g., "floral", "solid", "striped"
-        "color": "",
-        "styleTags": [],         # e.g., ["boho", "casual"]
-        "seasonTags": [],        # e.g., ["spring", "summer"]
-        "weatherTags": [],       # e.g., ["rainy", "windy"]
-        "indoorOnly": False,
-        "minTemp": 0,
-        "maxTemp": 100
-    }'''
-
 ]
 
 
 #testing
 
+    
 for item in closet:
-    print(f"{item['name']} - {item['article']} - {item['material']} ({item['color']})")
+    print(f"{item['name']} {item['article']} - {item['material']} ({item['color']})")
