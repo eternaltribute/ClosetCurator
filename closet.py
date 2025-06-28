@@ -42,7 +42,9 @@ closet = [
         "pattern": ["solid", "plain"],
         "material": "denim"
     }
+
         #TEMPLATE
+'''
     {
         "name": "",
         "article": "",           # e.g., "top", "bottom", "outerwear", "shoes"
@@ -54,7 +56,8 @@ closet = [
         "indoorOnly": False,
         "minTemp": 0,
         "maxTemp": 100
-    }
+    }'''
+
 ]
 
 
