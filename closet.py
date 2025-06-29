@@ -46,8 +46,10 @@ closet = [
 ]
 
 
-#testing
-
-    
+#testing   
 for item in closet:
     print(f"{item['name']} {item['article']} - {item['material']} ({item['color']})")
+
+
+#filtering style
+
